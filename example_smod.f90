@@ -1,7 +1,8 @@
 submodule (example_mod) example_smod
 
 contains
-    module procedure g
-        y = x + 1
-    end procedure g
+    module function g(x) result(y)
+        integer :: x,y
+        y = x * 2
+    end function g
 end submodule example_smod
