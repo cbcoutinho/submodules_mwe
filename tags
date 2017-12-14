@@ -1,0 +1,15 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/0ef4343e/
+all	makefile	/^all: example_mod.f90 example_smod.f90 main.f90$/;"	t
+clean	makefile	/^clean:$/;"	t
+example_mod	example_mod.f90	/^module example_mod$/;"	m
+f	example_mod.f90	/^    fu/;"	f
+f_interface	example_mod.f90	/^    interface f_interface$/;"	i
+main	main.f90	/^program main$/;"	p
+x	example_smod.f90	/^        integer :: x,/;"	v
+y	example_smod.f90	/^        integer :: x,y$/;"	v
