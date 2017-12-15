@@ -1,8 +1,9 @@
 # Minimum working example of Fortran submodules
 
 This repository contains a MWE of Fortran submodules as an example for
-universal-ctags/ctags#1616. The Fortran source files contain a main
-program file, a module file, and submodule file.
+[universal-ctags/ctags#1616](https://github.com/universal-ctags/ctags/issues/1616).
+The Fortran source files contain a main program file, a module file, and
+submodule file.
 
 ---
 
