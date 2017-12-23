@@ -11,12 +11,12 @@ module example_mod
         end function f
     end interface f_interface
 
-    interface
+    interface g_interface
         ! The function `g` is implemented in example_smod.f90
         module function g(x) result(y)
             integer :: x,y
         end function g
-    end interface
+    end interface g_interface
 
 contains
     function f(x) result(y)
